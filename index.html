@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 700px;
+            margin: 20px auto;
+        }
+        .card {
+            width: 150px;
+            border: 1px solid;
+            padding: 20px;
+        }
+        .card-image {
+            height: 120px;
+            background-color: #a2a2a2;
+            margin: auto;
+        }
+        .card-description {
+            margin-top: 15px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Моя первая публичная страница</h1>
+    <div class="container">
+        <div class="card">
+            <div class="card-image"></div>
+            <p class="card-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi illum aliquam.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-image"></div>
+            <p class="card-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur quia dolore.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-image"></div>
+            <p class="card-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur quia dolore.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
